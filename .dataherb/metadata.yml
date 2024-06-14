@@ -1,0 +1,18 @@
+name: Peekaboo
+description: Cyber-attacks continue to evolve, increasing in frequency and sophistication where Artificial Intelligence (AI) is becoming essential in detecting modern malware. However, the accuracy of AI in malware detection is dependent on the quality of the features it is trained with. Static and dynamic analysis of malware is limited by the widespread use of obfuscation and anti-analysis techniques employed by malware authors, where if an analysis environment is detected the malware will hide its malicious behavior. However, Dynamic Binary Instrumentation (DBI) allows deep and precise control of the malware sample, thereby facilitating the extraction of authentic features from sophisticated and evasive malware. We developed Peekaboo, a DBI tool to defeat the anti-analysis techniques and extract authentic behavior from live malware samples. We collected 18,527 malware samples across ransomware, spyware, trojans, botnets, worms, Advanced Persistent Threats (APT) and post exploitation tools where every sample includes type, family, and variant information, for example Ransomware-WannaCry-SHA256. We also collected 1,973 benign software samples for analysis.This dataset contains the results for each sample, that were run for up to 15 minutes, to observe not only the anti-analysis techniques used but also its complete behavior. For each malware sample, the network traffic, every opcode that is executed and every evasive technique that is used are captured.
+contributors:
+- name: Gaber, M., Ahmed, M., & Janicke, H.
+data:
+- name: Peekaboo
+  path: Peekaboo\Peekaboo Data
+  format: JSON, CSV, PYTHON, PCAP
+  md5: E7BABDD3E573C596CA9970890340C31F (MD5, APT29.zip) 
+  size: 650GB
+  fields:
+  - name: Filename
+  - name: File Size (kB)
+  ----------------------
+  - name: MUTEX
+license:
+- name: Creative Commons Attribution 4.0 License/Open Access
+
